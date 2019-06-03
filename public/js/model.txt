@@ -1,0 +1,32 @@
+-logiciel de gestion de pharmacie
+-gestion interne: caisse, les clients qui sont enregistrés, les assurances
+-pour les commandes ca doit crééer des bons de livraisons
+-ex: 100 commandes divisées en  3 livrasisons
+-livraisons partielles à prévoir car pour une commende on peur avoir plusieurs livrasions
+-paiement possible à l'avance avant la livrasison
+-quand on paie à l'avance on a un pourcentage dessus
+-on a 2 types de stock: le stock rangé sur les rayons et la réserve
+-qté alerte réserve à mettre  pour etre notifié a chaque fois que la quantité sur les rayons diminuent
+-le prix peut varier très souvent
+-il  y'aura un prix de vente fixé et un prix qui sera modifé au noiveau de la vente car on peut avoir deux médicaments avec des prix différents ca r c'est les grossistes qui mettent les étiquettes
+-c'est le meme prix toujours chez le meme fournisseur
+-Y'a aussi les grossistes qui font des promotions c'est à dire si elle achète 1000 et elle a 50 de bonus (appelé UCG)
+-il y'a que les clients fidèles à enregistrer et ils ont un carnet et les ventes peuvent se faire à crédit et on doit avoir la possibilité de dire dans la fiche de la société si elle veut recevoir des mails ou pas pour qu'à la fin de chaque ventele logiciel envoi le mail ou pas
+-client: nom complet, téléphone, email, date_naissance, sexe, localité, zone de livrasison, entreprise, compagnie, code_client
+-entreprise: nom, assurances, numero
+-caisse: monnaie à rendre, total credit, montant vente, mode_reglement(cash, tpe, chèque)
+-remise en pourcentage lors de la vente
+-prise en charge ou non la remise pourra toujours se faire
+-nom du prescripteur, hopital, prix de vente, tva, montant ttc
+-numéro du ticket, celui qui a vendu, la date et l'heure
+-pouvoir définir pour l'utilisateur la caisse sur laquelle il s'est connecté
+-changement d'article possible
+-pouvoir faire un proformat à envoyer avec les produits ainsi que les qté et les prix
+-pas de demandes de demande de prix
+-envoyer des sms de relance pour les créances
+-arréter les factures par rapport à une entreprise: on choisit la date d'arret et tant que l'entreprise n'a pas encore payé on ne lui fait plus de creances (totalité de la somme à payer)
+-inventaire: pouvoir corriger le stock après automatiquement
+-code toujours prendre le code fournisseur
+-prix de vente à calculer avec le coef
+-statistiques: sur n'importe quel facture
+Message Input
